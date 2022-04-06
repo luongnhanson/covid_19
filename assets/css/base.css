@@ -1,0 +1,32 @@
+:root {
+    --white-color: #fff;
+    --red-color: #ef1a1a;
+    --text-color: #333;
+    --btn-color: #48494b;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0)
+    }
+    to {
+        opacity: 1;
+        transform: scale(56px)
+    }
+}
